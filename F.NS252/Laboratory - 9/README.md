@@ -6,4 +6,4 @@ python3 Calculator.py
 
 Bug
 ---
-Sure has a bug there, didn't fixed just lab thing
+Sure has a bug there, didn't fix just lab thing
