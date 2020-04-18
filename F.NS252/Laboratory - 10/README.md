@@ -1,10 +1,11 @@
 # Text to Morse code and Morse audio
 
-### Getting started
-
+Getting started
+---
 All files have to in one directory 
 
-### Running the tests
+Running the tests
+---
 ```
 python3 MorseConverter.py
 ```
