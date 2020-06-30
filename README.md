@@ -23,3 +23,5 @@
 
 Надтай холбогдох
 ----------------
+<img src="https://github.com/ByamB4/MUST-Bachelor/blob/master/public/icon/facebook.png" width="25px" height="25px" /> <i>[Byambadalai Sumiya](https://www.facebook.com/ByambadalaiS)</i>
+<img src="https://github.com/ByamB4/MUST-Bachelor/blob/master/public/icon/linkedin.png" width="25px" height="25px" /> <i>[Byambadalai Sumiya](byambadalai-sumiya-60a468173)</i>
