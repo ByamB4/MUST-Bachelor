@@ -1,6 +1,6 @@
 # Бакалавр оюутан III курс
 
-<p align="center" style="font-size:10px"><a href="https://www.must.edu.mn/mn/">Шинжлэх ухаан технологийн их сургууль</a> | <a href="http://sict.edu.mn/">Мэдээлэл холбооны технологийн их сургууль</a> | <a href="">Системийн аюулгүй байдал</a></p>
+<p align="center" style="font-size:5px"><a href="https://www.must.edu.mn/mn/">Шинжлэх ухаан технологийн их сургууль</a> | <a href="http://sict.edu.mn/">Мэдээлэл холбооны технологийн их сургууль</a> | <a href="">Системийн аюулгүй байдал</a></p>
 
 Миний тухай
 ------------------------
