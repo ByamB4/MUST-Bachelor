@@ -1,5 +1,5 @@
 /**  
- *  Writer : ByamBa
+ *  Writer : Byambadalai Sumiya
  *  Date   : 02-14-2019
  *  For educational only if cyrilics your platform doesn't support cyrillics then 
  *  you can change and edit it's open source. 
