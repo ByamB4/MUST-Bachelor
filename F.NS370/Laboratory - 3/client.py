@@ -1,27 +1,17 @@
-from socket import *
+import socket
 
-HOSTNAME    = 'localhost'
-PORT        = 1337
+ADDR, PORT = "127.0.0.1", 1337
+data = "Test2\n"
 
-sock = socket(AF_INET, SOCK_STREAM)
-
-server_address = (HOSTNAME, PORT)
-
-print('[+] Connecting to {} port {}'.format(*server_address))
-
-sock.connect(server_address)
+tcp_client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 try:
-    message = b'This is our message. And its too fucking long okay so dont worry'
-    print('[+] Sending {!r}'.format(message))
-    sock.sendall(message)
+    tcp_client.connect((ADDR, PORT))
+    tcp_client.sendall(data.encode())
 
-    amount_received = 0
-    amount_expected = len(message)
-
-    while amount_received < amount_expected:
-        data = sock.recv(16)
-        amount_received += len(data)
-        print('received {!r}'.format(data))
+    received = tcp_client.recv(1024)
 finally:
-    print('closing socket')
+    tcp_client.close()
+
+print(f"Bytes Sent:     {data}")
+print(f"Bytes Received: {received.decode()}")
