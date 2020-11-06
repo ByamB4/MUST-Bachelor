@@ -6,23 +6,63 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>438</width>
-    <height>506</height>
+    <width>1200</width>
+    <height>700</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1200</width>
+    <height>700</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>Quick Malware Analyse Tool</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>static/img/logo.png</normaloff>static/img/logo.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>438</width>
-     <height>22</height>
+     <width>1200</width>
+     <height>24</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+     <underline>false</underline>
+     <strikeout>false</strikeout>
+     <kerning>false</kerning>
+    </font>
    </property>
    <widget class="QMenu" name="menuFile">
     <property name="title">
@@ -43,15 +83,9 @@
      <string>Go</string>
     </property>
    </widget>
-   <widget class="QMenu" name="menuHelp">
-    <property name="title">
-     <string>Help</string>
-    </property>
-   </widget>
    <addaction name="menuFile"/>
    <addaction name="menuView"/>
    <addaction name="menuGo"/>
-   <addaction name="menuHelp"/>
   </widget>
   <action name="actionClose">
    <property name="text">
@@ -62,6 +96,12 @@
    <property name="text">
     <string>Open...</string>
    </property>
+   <property name="toolTip">
+    <string>Open a New File</string>
+   </property>
+   <property name="shortcut">
+    <string extracomment="Ctrl+O">Ctrl+O</string>
+   </property>
   </action>
   <action name="actionClose_2">
    <property name="text">
@@ -71,6 +111,9 @@
   <action name="actionExit">
    <property name="text">
     <string>Exit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
    </property>
   </action>
  </widget>
